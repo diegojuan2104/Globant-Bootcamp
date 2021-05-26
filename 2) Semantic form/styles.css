@@ -1,0 +1,9 @@
+body {
+  font-family: sans-serif;
+}
+
+.required {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}

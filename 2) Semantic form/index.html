@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Software Developer Survey</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+  <main>
+    <header>
+      <h1>Encuesta para estudiantes de React Globant Bootcamp</h1>
+     </header>
+      <p>
+        Los campos con <span> <abbr title="required" class="required" >*</abbr></span> son requeridos.
+      </p>
+     <section> <form action="">
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input
+          id="nombre"
+          type="text"
+          name="nombre"
+          placeholder="Ingresa tu nombre"
+          required
+        />
+        <abbr title="required" class="required" >*</abbr>
+      </div>
+
+      <div>
+        <label for="apellido">Apellido:</label>
+        <input
+          id="apellido"
+          type="text"
+          name="apellido"
+          placeholder="Ingresa tu apellido"
+          required
+        />
+        <abbr title="required" class="required" >*</abbr>
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Ingresa tu email"
+        />
+      </div>
+
+      <div>
+        <label for="telefono">Teléfono:</label>
+        <input
+          id="telefono"
+          type="number"
+          name="telefono"
+          placeholder="Ingresa tu teléfono "
+        />
+
+      </div>
+
+      <fieldset>
+        <legend>Grupo:</legend>
+        
+       
+        <input type="radio" id="grupo_A" name="grupo" value="A" required/>
+        <label for="grupo_A">A</label>
+
+        <input type="radio" id="grupo_B" name="grupo" value="B" required />
+        <label for="grupo_B">B</label>
+        
+        <abbr title="required" class="required">*</abbr>
+      </fieldset>
+      
+
+      <fieldset>
+          <legend>Selecciona los horarios en que puedes asistir:</legend>
+      
+          <input type="checkbox" id="c7am" name="chorario" required />
+          <label for="c7am">7:00 AM</label>
+
+          <input type="checkbox" id="c11am" name="chorario"  required/>
+          <label for="c11am">11:00 AM</label>
+
+          <input type="checkbox" id="c5pm" name="chorario" required />
+          <label for="c5pm">5:00 PM</label>
+          <abbr title="required" class="required">*</abbr>
+        </fieldset>
+      </fieldset>
+
+
+      <fieldset>
+          <legend>Selecciona tu horario preferido:</legend>
+         
+          <input type="radio" id="r7am" name="rhorario" required />
+          <label for="r7am">7:00 AM</label>
+
+          <input type="radio" id="r11am" name="rhorario" required/>
+          <label for="r11am">11:00 AM</label>
+
+          <input type="radio" id="r5pm" name="rhorario" required/>
+          <label for="r5pm">5:00 PM</label>
+          <abbr title="required" class="required">*</abbr>
+      </fieldset>
+    <input type="submit" value="Submit" />
+  </form></section>
+  </main>
+  </body>
+</html>
