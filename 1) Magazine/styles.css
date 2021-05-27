@@ -1,176 +1,184 @@
 body {
-    font-family: sans-serif;
-    font-family: sans-serif;
-    margin: auto;
-    padding: 0px;
-    box-sizing: border-box;
-    text-shadow: 1px 2px 2px black;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .cover {
-    background-image: url("https://cdn-3.expansion.mx/dims4/default/a844772/2147483647/strip/true/crop/1200x800+0+0/resize/1800x1200!/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F58%2F28%2F7d8525014d9e9d8637174ba4dcd0%2Fxpa1258-artport-satyanadella-gss-080819imgl49952.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 800px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 92%;
-  }
-  
-  .top-section {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .top-section h1 {
-    font-size: 15vw;
-    padding: 0;
-    margin-top: -50px;
-    margin-bottom: 0;
-    color: white;
-    align-self: center;
-  }
-  
-  .top-section h2 {
-    margin-top: 0;
-    margin: 0px;
-    padding-right: 0;
-    font-size: 25px;
-    color: white;
-    text-transform: uppercase;
-    font-weight: normal;
-    border-right: solid 3px yellow;
-    font-family: "Oswald", sans-serif;
-    align-self: flex-end;
-    padding-right: 50px;
-  }
-  
-  .top-section__text {
-    color: yellow;
-    margin-top: -20px;
-    align-self: flex-end;
-    font-size: 14px;
-    font-weight: 700;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-right: 50px;
-  }
-  
-  .top-section__text a {
-    text-decoration: none;
-    color: yellow;
-  }
-  
-  .top-section__text p {
-    margin: 0;
-  }
+  font-family: sans-serif;
+  font-family: sans-serif;
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+  text-shadow: 1px 2px 2px black;
+  background-color: black;
+}
 
-  .middle-sections {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    height: 30%;
-    align-items: center;
-    color: white;
-    font-size: 17px;
-  }
-  
-  .middle-section {
-    width: 200px;
-    font-weight: normal;
-    list-style-type: none;
-  }
-  
-  .middle-section-text p {
-    color: yellow;
-  }
-  
-  .middle-section-text span {
-    text-transform: uppercase;
-  }
-  
-  .bottom-section {
-    width: 100%;
-    height: 30%;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .bottom-section-character-info {
-    align-self: flex-end;
-    text-align: right;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .character-character-name {
-    background-color: yellow;
-    font-family: "Oswald", sans-serif;
-    font-size: 35px;
-    font-style: italic;
-    font-weight: bold;
-  }
-  
-  .character-character-name h3 {
-    margin: 0;
-    padding: 0;
-    text-shadow: none;
-  }
-  
-  .character-character-job {
-    font-size: 18px;
-    color: white;
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
-  }
-  
-  .bottom-section-big-title h2 {
-    font-family: "Oswald", sans-serif;
-    color: white;
-    font-size: 7vw;
-    padding: 0;
-    margin: 0;
-    letter-spacing: 3px;
-    line-height: 8vw;
-  }
-  
-  .bottom-section-big-title {
-    align-self: flex-end;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: right;
-  }
-  
-  .bottom-section-text {
-    font-family: "Oswald", sans-serif;
-    font-size: 22px;
-    width: 80%;
-    align-self: flex-end;
-    text-transform: uppercase;
-    font-weight: bolded;
-    color: white;
-    margin-top: -30px;
-    text-align: right;
-  }
-  
-  .bottom-section-text span {
-    color: yellow;
-    font-weight: bold;
-  }
-  
+.cover {
+  background-image: url("https://aws.glamour.es/prod/designs/v1/assets/666x1000/437151.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 850px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 92%;
+}
+
+.top-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section h1 {
+  font-size: 250px;
+  padding: 0;
+  margin: 0;
+  color: white;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.top-section h1 span {
+  order: -1;
+  font-size: 35px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  border-right: solid 3px yellow;
+  font-family: "Oswald", sans-serif;
+  align-self: flex-end;
+  padding-right: 50px;
+}
+
+.top-section__text {
+  color: yellow;
+  margin-top: -20px;
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
+  order: 2;
+}
+
+.top-section__text a {
+  text-decoration: none;
+  color: yellow;
+}
+
+.top-section__text p {
+  margin: 0;
+}
+
+.middle-sections {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.middle-section {
+  width: 200px;
+  font-weight: normal;
+  list-style-type: none;
+}
+
+.middle-section-text p {
+  color: yellow;
+}
+
+.middle-section-text span {
+  text-transform: uppercase;
+}
+
+.bottom-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-section-character-info {
+  align-self: flex-end;
+  text-align: right;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.character-character-name {
+  background-color: yellow;
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.character-character-name h3 {
+  margin: 0;
+  padding: 0;
+  text-shadow: none;
+}
+
+.character-character-job {
+  font-size: 18px;
+  color: white;
+}
+
+.bottom-section-big-title h2 {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 120px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+  line-height: 1;
+}
+
+.bottom-section-big-title {
+  align-self: flex-end;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: right;
+  display: flex;
+  order: 1;
+}
+
+.break-line {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-section-text {
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  width: 90%;
+  align-self: flex-end;
+  text-transform: uppercase;
+  font-weight: bolded;
+  color: white;
+  text-align: right;
+  order: 2;
+}
+
+.bottom-section-text span {
+  color: yellow;
+  font-weight: bold;
+}
